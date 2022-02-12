@@ -1,0 +1,19 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "LX63Hub",
+     Style = 3,
+     SizeX = 400,
+     SizeY = 300,
+     Theme = "Dark"
+})
+
+local Page = UI.New({
+    Title = "Head Scripts"
+})
+Page.Button({
+    Text = "if you see this please send the screenshot to owner",
+    Callback = function()
+    print"send"
+    end
+   })
